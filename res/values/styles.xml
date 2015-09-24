@@ -5,6 +5,7 @@
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
 
+
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
@@ -22,6 +23,12 @@
         <item name="root_view_bg">@drawable/bg_night</item>
         <item name="btn_bg">@color/black_btn_color</item>
         <item name="text_color">@color/white_tx_color</item>
+    </style>
+
+    <style name="drop_down_list_footer_font_style">
+        <item name="android:textColor">@color/drop_down_list_footer_font_color</item>
+        <item name="android:textSize">@dimen/drop_down_list_footer_font_size</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
 
 </resources>
